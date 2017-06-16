@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#T##DispatchQueue#&gt;.asyncAfter(deadline: DispatchTime.now() + Double((Int64)(&lt;#seconds#&gt; * NSEC_PER_SEC)) / Double(NSEC_PER_SEC)) {
+	<string>&lt;#T##DispatchQueue#&gt;.asyncAfter(deadline: DispatchTime.now() + (&lt;#seconds#&gt; * Double(NSEC_PER_SEC)) / Double(NSEC_PER_SEC)) {
             
             &lt;#code#&gt;
         }</string>
